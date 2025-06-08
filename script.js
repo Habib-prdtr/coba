@@ -321,6 +321,7 @@ const canvas = document.getElementById('tetris');
     }
   });
 
+  // mobileControls
   document.getElementById('leftBtn').addEventListener('click', () => {
   if (!paused) playerMove(-1);
 });
@@ -336,7 +337,7 @@ document.getElementById('downBtn').addEventListener('click', () => {
 document.getElementById('rotateBtn').addEventListener('click', () => {
   if (!paused) playerRotate(1);
 });
-
+// mobileControls
 
   resize();
   draw();
